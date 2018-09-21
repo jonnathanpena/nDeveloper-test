@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app.routing.module';
 
 import { AppComponent } from './app.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { MarcadorComponent } from './marcador/marcador.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    InicioComponent
+    InicioComponent,
+    MarcadorComponent
   ],
   imports: [
     BrowserModule,
